@@ -1,16 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+
 /* Grid */
 .layout {
   /* Set your own grid   */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 400px;
+  grid-template-rows: 825px;
   grid-column-gap: 1em;
+  justify-content: center;
 }
 
+body {
+  font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif;
+font-size: 1.5em;
+}
 /* Widgets */
 section {
-  background: lightgray;
-  padding: 1em;
+  background: #ADD7E9;
+padding: 1em;
+color: #1c352d;
+text-align: center;
   
   /* Relative Parent. Absolute Child */
   position: relative;
